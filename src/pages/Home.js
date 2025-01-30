@@ -293,9 +293,7 @@ const Home = () => {
               <h1 className="text-4xl md:text-9xl font-bold leading-tight mb-8 ">
                 Buy DeepSlam
               </h1>
-              <p className="text-lg md:text-2xl mb-8">
-                Welcome to DeepSlam coin
-              </p>
+              <p className="text-lg md:text-2xl mb-8">Welcome to DeepSlam</p>
               <Link
                 to={
                   "https://pump.fun/coin/CKWFtE3R5Ut2Qb1S9wkRspCT3qneBHa3BbGR9FXMpump"

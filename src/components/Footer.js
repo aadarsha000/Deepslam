@@ -16,14 +16,14 @@ const Footer = () => {
           <a href="#home" className="hover:text-primary text-lg">
             Home
           </a>
+          <a href="#features" className="hover:text-primary text-lg">
+            Features
+          </a>
           <a href="#about" className="hover:text-primary text-lg">
             About
           </a>
-          <a href="#services" className="hover:text-primary text-lg">
-            Tomenomics
-          </a>
-          <a href="#contact" className="hover:text-primary text-lg">
-            Contact Us
+          <a href="#roadmap" className="hover:text-primary text-lg">
+            Roadmap
           </a>
         </div>
 
@@ -32,9 +32,9 @@ const Footer = () => {
           <div className="h-12 w-12 min-w-12 min-h-12 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
             <FaXTwitter />
           </div>
-          <div className="h-12 w-12 min-w-12 min-h-12 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
+          {/* <div className="h-12 w-12 min-w-12 min-h-12 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
             <BsFillSendFill />
-          </div>
+          </div> */}
         </div>
 
         {/* Copyright */}
