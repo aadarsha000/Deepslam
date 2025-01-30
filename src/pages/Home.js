@@ -128,7 +128,13 @@ const Home = () => {
           <div
             className={`container mx-auto  px-6 md:px-12 flex justify-between items-center text-white`}
           >
-            <div className="text-2xl font-semibold">Logo</div>
+            <div className="text-2xl font-semibold">
+              <img
+                src="/assets/images/logo.png"
+                alt="DeepSlam Logo"
+                className="h-12 w-auto"
+              />
+            </div>
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-6">
               <ul className="flex space-x-6">
@@ -148,17 +154,22 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-primary">
-                    Contact Us
+                  <a href="#roadmap" className="hover:text-primary">
+                    Roadmap
                   </a>
                 </li>
               </ul>
             </div>
             <ul className="flex space-x-4">
               <li>
-                <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
+                <a
+                  href="https://x.com/Deepslamai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center"
+                >
                   <FaXTwitter />
-                </div>
+                </a>
               </li>
               <li>
                 <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
@@ -244,19 +255,24 @@ const Home = () => {
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-white hover:text-primary">
-                  Tomenomics
+                <a href="#features" className="text-white hover:text-primary">
+                  Features
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-white hover:text-primary">
-                  Contact Us
+                <a href="#roadmap" className="text-white hover:text-primary">
+                  Roadmap
                 </a>
               </li>
               <li className="flex space-x-4">
-                <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
+                <a
+                  href="https://twitter.com/DeepSlamAI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center"
+                >
                   <FaXTwitter />
-                </div>
+                </a>
                 <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
                   <BsFillSendFill />
                 </div>
@@ -362,7 +378,7 @@ const Home = () => {
                       </li>
                       <li>
                         <strong>Meme Culture with a Purpose:</strong> Memes are
-                        more than jokes—they’re a universal language. DeepSlam
+                        more than jokes—they're a universal language. DeepSlam
                         uses memes to unite a global audience, sparking
                         conversations about decentralization, innovation, and
                         the future of technology.
@@ -376,14 +392,14 @@ const Home = () => {
                       </li>
                       <li>
                         <strong>Fun Meets Functionality:</strong> Who says
-                        disruption can’t be fun? DeepSlam blends the humor and
+                        disruption can't be fun? DeepSlam blends the humor and
                         lightheartedness of meme culture with the transformative
                         power of technology, proving that we can innovate while
                         having a good laugh.
                       </li>
                     </ul>
                     <p className="mt-6 text-lg text-textPrimary">
-                      DeepSlam isn’t just about cryptocurrency—it’s about
+                      DeepSlam isn't just about cryptocurrency—it's about
                       leading a revolution with wit, innovation, and community.
                       <em>
                         {" "}
