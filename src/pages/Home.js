@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { BsFillSendFill } from "react-icons/bs";
 import FeatureCard from "../components/FeatureCard";
-import { Shield, Zap, RefreshCw } from "lucide-react";
+import { Shield } from "lucide-react";
+import { FaGamepad, FaLaugh } from "react-icons/fa";
 import {
   FaRocket,
   FaLightbulb,
@@ -145,7 +146,7 @@ const Home = () => {
                 </li>
                 <li>
                   <a href="#features" className="hover:text-primary">
-                    Features
+                    Products
                   </a>
                 </li>
                 <li>
@@ -171,11 +172,11 @@ const Home = () => {
                   <FaXTwitter />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
                   <BsFillSendFill />
                 </div>
-              </li>
+              </li> */}
             </ul>
 
             {/* Mobile Menu Button */}
@@ -256,7 +257,7 @@ const Home = () => {
               </li>
               <li>
                 <a href="#features" className="text-white hover:text-primary">
-                  Features
+                  Products
                 </a>
               </li>
               <li>
@@ -273,9 +274,9 @@ const Home = () => {
                 >
                   <FaXTwitter />
                 </a>
-                <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
+                {/* <div className="h-10 w-10 min-w-10 min-h-10 rounded-full text-secondary bg-primary border-2 border-primary hover:bg-secondary hover:text-primary flex items-center justify-center cursor-pointer">
                   <BsFillSendFill />
-                </div>
+                </div> */}
               </li>
             </ul>
           </div>
@@ -311,23 +312,23 @@ const Home = () => {
           <div className="py-20 bg-black">
             <div className="container mx-auto px-6 md:px-12">
               <h2 className="text-4xl font-bold mb-12 text-center text-yellow-400">
-                Our Features
+                Our Products
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <FeatureCard
                   icon={<Shield className="h-12 w-12 text-yellow-400" />}
-                  title="Secure Transactions"
-                  description="Our advanced encryption ensures your transactions are always safe and private."
+                  title="DeepSlam AI Bot"
+                  description="Our intelligent bot assists with community management and provides automated responses powered by advanced AI."
                 />
                 <FeatureCard
-                  icon={<Zap className="h-12 w-12 text-yellow-400" />}
-                  title="Lightning Fast"
-                  description="Experience the fastest transaction speeds in the crypto world."
+                  icon={<FaGamepad className="h-12 w-12 text-yellow-400" />}
+                  title="DeepSlam Mini-Games"
+                  description="Engage with our community through fun, interactive games while earning rewards and tokens."
                 />
                 <FeatureCard
-                  icon={<RefreshCw className="h-12 w-12 text-yellow-400" />}
-                  title="Real-time Updates"
-                  description="Stay informed with real-time market updates and notifications."
+                  icon={<FaLaugh className="h-12 w-12 text-yellow-400" />}
+                  title="AI-Powered Meme Generator"
+                  description="Create hilarious and viral memes instantly with our AI-powered meme generation tool."
                 />
               </div>
             </div>
@@ -426,7 +427,7 @@ const Home = () => {
               <div className="w-full">
                 <div className="bg-secondary shadow-lg rounded-lg overflow-hidden">
                   <img
-                    src="/assets/images/Deepslam.jpg" // Ensure this image is in your public/images folder
+                    src="/assets/images/hero-section.jpeg" // Ensure this image is in your public/images folder
                     alt="DeepSlam AI"
                     className="w-full h-auto object-cover"
                   />
